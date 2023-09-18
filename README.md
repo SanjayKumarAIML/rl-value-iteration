@@ -43,8 +43,6 @@ The episode terminates when the agent reaches the goal state (G) or falls into a
  - It begins with an initial guess for the value function, and iteratively updates it towards the optimal value function, according to the Bellman optimality equation. 
   - The algorithm is guaranteed to converge to the optimal value function, and in the process of doing so, also converges to the optimal policy.
 
-</br></br></br></br></br></br></br></br></br>
-
 The algorithm is as follows:
 1. Initialize the value function V(s) arbitrarily for all states s.
 2. Repeat until convergence:
